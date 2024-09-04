@@ -48,8 +48,13 @@ console.log(A >= B);
 // Задача: Проверка равенства
 let firstName = "John";
 let lastName = "John";
-console.log(firstName == lastName);
+console.log(firstName === lastName);
 // true, потому что обе переменные строковые, и у обеих переменных одинаковое значение John
+
+let Num = 0;
+let str = "";
+console.log(Num == str); 
+//  true, потому что это нестрогое равенство, без сравнения типов данных
 
 // Задача: Проверка неравенства
 let age = 18;
